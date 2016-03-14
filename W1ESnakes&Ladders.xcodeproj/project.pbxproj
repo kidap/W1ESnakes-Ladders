@@ -13,6 +13,10 @@
 		A7EEB1841C95F88600DF7A70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7EEB1821C95F88600DF7A70 /* Main.storyboard */; };
 		A7EEB1861C95F88600DF7A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7EEB1851C95F88600DF7A70 /* Assets.xcassets */; };
 		A7EEB1891C95F88600DF7A70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7EEB1871C95F88600DF7A70 /* LaunchScreen.storyboard */; };
+		A7EEB1921C95FCA700DF7A70 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EEB1911C95FCA700DF7A70 /* GameController.m */; };
+		A7EEB1951C95FCEB00DF7A70 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EEB1941C95FCEB00DF7A70 /* Board.m */; };
+		A7EEB1981C95FD0800DF7A70 /* BoardSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EEB1971C95FD0800DF7A70 /* BoardSquare.m */; };
+		A7EEB19B1C95FD1700DF7A70 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EEB19A1C95FD1700DF7A70 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		A7EEB1851C95F88600DF7A70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7EEB1881C95F88600DF7A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7EEB18A1C95F88600DF7A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7EEB1901C95FCA700DF7A70 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		A7EEB1911C95FCA700DF7A70 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		A7EEB1931C95FCEB00DF7A70 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		A7EEB1941C95FCEB00DF7A70 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		A7EEB1961C95FD0800DF7A70 /* BoardSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardSquare.h; sourceTree = "<group>"; };
+		A7EEB1971C95FD0800DF7A70 /* BoardSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardSquare.m; sourceTree = "<group>"; };
+		A7EEB1991C95FD1700DF7A70 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		A7EEB19A1C95FD1700DF7A70 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,14 @@
 				A7EEB1871C95F88600DF7A70 /* LaunchScreen.storyboard */,
 				A7EEB18A1C95F88600DF7A70 /* Info.plist */,
 				A7EEB1791C95F88600DF7A70 /* Supporting Files */,
+				A7EEB1901C95FCA700DF7A70 /* GameController.h */,
+				A7EEB1911C95FCA700DF7A70 /* GameController.m */,
+				A7EEB1931C95FCEB00DF7A70 /* Board.h */,
+				A7EEB1941C95FCEB00DF7A70 /* Board.m */,
+				A7EEB1961C95FD0800DF7A70 /* BoardSquare.h */,
+				A7EEB1971C95FD0800DF7A70 /* BoardSquare.m */,
+				A7EEB1991C95FD1700DF7A70 /* Player.h */,
+				A7EEB19A1C95FD1700DF7A70 /* Player.m */,
 			);
 			path = "W1ESnakes&Ladders";
 			sourceTree = "<group>";
@@ -151,8 +171,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7EEB1811C95F88600DF7A70 /* ViewController.m in Sources */,
+				A7EEB1921C95FCA700DF7A70 /* GameController.m in Sources */,
 				A7EEB17E1C95F88600DF7A70 /* AppDelegate.m in Sources */,
 				A7EEB17B1C95F88600DF7A70 /* main.m in Sources */,
+				A7EEB1951C95FCEB00DF7A70 /* Board.m in Sources */,
+				A7EEB19B1C95FD1700DF7A70 /* Player.m in Sources */,
+				A7EEB1981C95FD0800DF7A70 /* BoardSquare.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

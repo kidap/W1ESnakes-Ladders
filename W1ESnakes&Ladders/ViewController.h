@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GameController.h"
 
 @interface ViewController : UIViewController
-
 
 @end
 
