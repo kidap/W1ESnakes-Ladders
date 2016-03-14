@@ -26,12 +26,13 @@
     
     _boardSquares = [[NSMutableArray alloc] init];
     
+    //Create board with normal state
     for (int i = 0; i <= boardSize ;i++ ){
       BoardSquare *square = [[BoardSquare alloc] initWithSquareType:SquareTypeNormal];
       [_boardSquares addObject:square];
     }
     
-    //today snaks and ladder = 40% of the board
+    //today snakes and ladder = 40% of the board
     int specialSquare =  (int)boardSize * 0.40;
     int snakeCtr = 0;
     int ladderCtr = 0;
